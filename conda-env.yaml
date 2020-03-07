@@ -1,0 +1,15 @@
+name: nightscout-menubar-mac
+
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- black
+- isort
+- pip
+- py2app
+- requests
+- pip:
+  - rumps
+  - setuptools<45.0.0
